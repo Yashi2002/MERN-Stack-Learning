@@ -1,5 +1,4 @@
 import { Component } from "react";
-import ConvoList from './ConvoList'; 
 
 class Home extends Component{
     render(){
@@ -2105,7 +2104,6 @@ class Home extends Component{
                     <span>11:39 PM</span>
                   </div>
                 </div>
-                <ConvoList></ConvoList>
                 <div className="conv-list">
                   <div className="usrr-pic">
                     <img src="./images/usy3.png" alt="" />
