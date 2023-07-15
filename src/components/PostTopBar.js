@@ -1,9 +1,10 @@
 import { Component } from "react";
 class PostTopBar extends Component{
     render(){
+      const {user} = this.props;
         return <div className="post-topbar">
             <div className="user-picy">
-              <img src="./images/yasi.jpeg" alt="" />
+              <img src={"./images/"+user.username + ".jpeg"} alt="" />
             </div>
             <div className="post-st">
               <ul>
