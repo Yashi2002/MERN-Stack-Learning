@@ -136,7 +136,7 @@ class Home extends Component {
                           </div>
                         </div>
                       </div>
-                      <TagSection />
+                      <TagSection/>
                       <div
                         className="widget widget-jobs"
                         style={{ display: "none" }}
