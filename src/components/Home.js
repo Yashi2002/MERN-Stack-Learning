@@ -6,8 +6,8 @@ import Post from "./Post";
 import TagSection from "./TagSection";
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       user: {},
     };
@@ -24,8 +24,8 @@ class Home extends Component {
   }
 
   render() {
-    const user = this.state.user;
-    // const user = { ...this.state.user };
+    // const user = this.state.user;
+    const user = { ...this.state.user };
     // const { user } = this.state;
     if (!Object.keys(user).length) {
       return <div></div>
@@ -136,7 +136,7 @@ class Home extends Component {
                           </div>
                         </div>
                       </div>
-                      <TagSection/>
+                      <TagSection></TagSection>
                       <div
                         className="widget widget-jobs"
                         style={{ display: "none" }}
