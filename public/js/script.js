@@ -3,29 +3,30 @@ $(window).on("load", function () {
 
   //  ============= POST PROJECT POPUP FUNCTION =========
 
-  $(".post_project").on("click", function () {
-    $(".post-popup.pst-pj").addClass("active");
-    $(".wrapper").addClass("overlay");
-    return false;
-  });
-  $(".post-project > a").on("click", function () {
-    $(".post-popup.pst-pj").removeClass("active");
-    $(".wrapper").removeClass("overlay");
-    return false;
-  });
+  // $(".post_project").on("click", function () {
+  //   $(".post-popup.pst-pj").addClass("active");
+  //   $(".wrapper").addClass("overlay");
+  //   return false;
+  // });
+  // $(".post-project > a").on("click", function () {
+  //   $(".post-popup.pst-pj").removeClass("active");
+  //   $(".wrapper").removeClass("overlay");
+  //   return false;
+  // });
 
   //  ============= POST JOB POPUP FUNCTION =========
 
-  $(".post-jb").on("click", function () {
-    $(".post-popup.job_post").addClass("active");
-    $(".wrapper").addClass("overlay");
-    return false;
-  });
-  $(".post-project > a").on("click", function () {
-    $(".post-popup.job_post").removeClass("active");
-    $(".wrapper").removeClass("overlay");
-    return false;
-  });
+  // $(".post-jb").on("click", function () {
+  //   $(".post-popup.job_post").addClass("active");
+  //   $(".wrapper").addClass("overlay");
+  //   return false;
+  // });
+
+  // $(".post-project > a").on("click", function () {
+  //   $(".post-popup.job_post").removeClass("active");
+  //   $(".wrapper").removeClass("overlay");
+  //   return false;
+  // });
 
   //  ============= SIGNIN CONTROL FUNCTION =========
 
