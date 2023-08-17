@@ -63,10 +63,10 @@ $(window).on("load", function () {
 
   //  ============= COVER GAP FUNCTION =========
 
-  var gap = $(".container").offset().left;
-  $(".cover-sec > a, .chatbox-list").css({
-    right: gap,
-  });
+  // var gap = $(".container").offset().left;
+  // $(".cover-sec > a, .chatbox-list").css({
+  //   right: gap,
+  // });
 
   //  ============= OVERVIEW EDIT FUNCTION =========
 
@@ -234,12 +234,12 @@ $(".user-info").on("click", function(){$("#users").hide();
     });
     
 	*/
-  $(".user-info").click(function () {
-    $(".user-account-settingss").slideToggle("fast");
-    $("#message").not($(this).next("#message")).slideUp();
-    $("#notification").not($(this).next("#notification")).slideUp();
-    // Animation complete.
-  });
+  // $(".user-info").click(function () {
+  //   $(".user-account-settingss").slideToggle("fast");
+  //   $("#message").not($(this).next("#message")).slideUp();
+  //   $("#notification").not($(this).next("#notification")).slideUp();
+  //   // Animation complete.
+  // });
 
   //  ============= FORUM LINKS MOBILE MENU FUNCTION =========
 
