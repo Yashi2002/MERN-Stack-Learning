@@ -9,7 +9,7 @@ class LeftSide extends Component {
       <div className="col-lg-3 col-md-4 pd-left-none no-pd">
         <div className="main-left-sidebar no-margin">
           <UserData user={user} />
-          <Suggestions />
+          <Suggestions user ={user}/>
         </div>
       </div>
     );

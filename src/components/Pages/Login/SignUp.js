@@ -1,3 +1,5 @@
+import { POST_API } from "../../../config";
+
 const SignUp = () => {
     const handleSignUpClick = (evnt) => {
         // get SignForm HTML Element from form ID
@@ -24,7 +26,7 @@ const SignUp = () => {
         document.querySelector("#err").innerHTML = "";
     
         // call Backend API to create user
-        fetch("http://localhost:5000/api/v1/user", {
+        fetch(POST_API, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

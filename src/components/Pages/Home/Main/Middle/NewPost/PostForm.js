@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { POST_API } from "../../../../../../config";
 
 class PostForm extends Component {
   constructor() {
@@ -36,7 +37,7 @@ class PostForm extends Component {
       return;
     }
     // call Backend API to create post record
-    fetch("http://localhost:5000/api/v1/post", {
+    fetch(POST_API, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
